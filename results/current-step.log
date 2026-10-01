@@ -1,1 +1,176 @@
-open /home/runner/work/needpedia-build-check/needpedia-build-check/docker-compose.check.yml: no such file or directory
+#1 [internal] load local bake definitions
+#1 reading from stdin 450B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 1.51kB done
+#2 DONE 0.0s
+
+#3 [auth] library/ruby:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [internal] load metadata for docker.io/library/ruby:2.7.8-bullseye
+#4 DONE 0.4s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [ 1/10] FROM docker.io/library/ruby:2.7.8-bullseye@sha256:2347de892e419c7160fc21dec721d5952736909f8c3fbb7f84cb4a07aaf9ce7d
+#6 resolve docker.io/library/ruby:2.7.8-bullseye@sha256:2347de892e419c7160fc21dec721d5952736909f8c3fbb7f84cb4a07aaf9ce7d done
+#6 sha256:918547b9432687b1e1d238e82dc1e0ea0b736aafbf3c402eea98c6db81a9cb65 7.34MB / 55.05MB 0.1s
+#6 sha256:4eedd9c5abf7e5f63753a5e788cb0872a715fa1141e8ce5ea87638e6cd370a41 0B / 54.58MB 0.1s
+#6 sha256:2347de892e419c7160fc21dec721d5952736909f8c3fbb7f84cb4a07aaf9ce7d 1.86kB / 1.86kB done
+#6 sha256:f4420f957a9b4fae91a8d8c7fab8ba43e5a76bd640c87cb2b20ef669039e1319 1.79kB / 1.79kB done
+#6 sha256:3cb86b8c626861ba5167462228a0035db6b2deae893f3e8fafcf256d9d3abdaa 6.96kB / 6.96kB done
+#6 sha256:5d79063a01c561833dc6546d4e647fda0121a59e1a9a17874a3e30854555475e 0B / 15.76MB 0.1s
+#6 sha256:918547b9432687b1e1d238e82dc1e0ea0b736aafbf3c402eea98c6db81a9cb65 36.70MB / 55.05MB 0.2s
+#6 sha256:4eedd9c5abf7e5f63753a5e788cb0872a715fa1141e8ce5ea87638e6cd370a41 11.53MB / 54.58MB 0.2s
+#6 sha256:5d79063a01c561833dc6546d4e647fda0121a59e1a9a17874a3e30854555475e 13.63MB / 15.76MB 0.2s
+#6 ...
+
+#7 [internal] load build context
+#7 transferring context: 14.44MB 0.2s done
+#7 DONE 0.3s
+
+#6 [ 1/10] FROM docker.io/library/ruby:2.7.8-bullseye@sha256:2347de892e419c7160fc21dec721d5952736909f8c3fbb7f84cb4a07aaf9ce7d
+#6 sha256:918547b9432687b1e1d238e82dc1e0ea0b736aafbf3c402eea98c6db81a9cb65 55.05MB / 55.05MB 0.3s done
+#6 sha256:4eedd9c5abf7e5f63753a5e788cb0872a715fa1141e8ce5ea87638e6cd370a41 54.58MB / 54.58MB 0.4s done
+#6 sha256:5d79063a01c561833dc6546d4e647fda0121a59e1a9a17874a3e30854555475e 15.76MB / 15.76MB 0.2s done
+#6 extracting sha256:918547b9432687b1e1d238e82dc1e0ea0b736aafbf3c402eea98c6db81a9cb65
+#6 sha256:9cdadd40055fb82fef74a0a38f29fb1ee7b6922e18370ebdc3502ec66f79fa3f 35.65MB / 196.85MB 0.4s
+#6 sha256:199731bb298672a6e76a243fa683e612e3212d372488cf80b5236416533c0622 200B / 200B 0.3s done
+#6 sha256:b293c0d80a1fc02a3b8c65f1cd4f89b40fdeff8c8fad6d05f2b5b8b57e918a96 14.55MB / 14.55MB 0.4s done
+#6 sha256:4435ded53ef02c7fce73c1aa6d82844922b923717e0e27efb56361b3e612d48b 0B / 176B 0.4s
+#6 sha256:9cdadd40055fb82fef74a0a38f29fb1ee7b6922e18370ebdc3502ec66f79fa3f 73.40MB / 196.85MB 0.5s
+#6 sha256:4435ded53ef02c7fce73c1aa6d82844922b923717e0e27efb56361b3e612d48b 176B / 176B 0.4s done
+#6 sha256:9cdadd40055fb82fef74a0a38f29fb1ee7b6922e18370ebdc3502ec66f79fa3f 109.05MB / 196.85MB 0.6s
+#6 sha256:9cdadd40055fb82fef74a0a38f29fb1ee7b6922e18370ebdc3502ec66f79fa3f 146.80MB / 196.85MB 0.7s
+#6 sha256:9cdadd40055fb82fef74a0a38f29fb1ee7b6922e18370ebdc3502ec66f79fa3f 182.45MB / 196.85MB 0.8s
+#6 sha256:9cdadd40055fb82fef74a0a38f29fb1ee7b6922e18370ebdc3502ec66f79fa3f 196.85MB / 196.85MB 0.9s
+#6 sha256:9cdadd40055fb82fef74a0a38f29fb1ee7b6922e18370ebdc3502ec66f79fa3f 196.85MB / 196.85MB 1.0s done
+#6 extracting sha256:918547b9432687b1e1d238e82dc1e0ea0b736aafbf3c402eea98c6db81a9cb65 2.1s done
+#6 extracting sha256:5d79063a01c561833dc6546d4e647fda0121a59e1a9a17874a3e30854555475e 0.1s
+#6 extracting sha256:5d79063a01c561833dc6546d4e647fda0121a59e1a9a17874a3e30854555475e 0.4s done
+#6 extracting sha256:4eedd9c5abf7e5f63753a5e788cb0872a715fa1141e8ce5ea87638e6cd370a41
+#6 extracting sha256:4eedd9c5abf7e5f63753a5e788cb0872a715fa1141e8ce5ea87638e6cd370a41 1.9s done
+#6 extracting sha256:9cdadd40055fb82fef74a0a38f29fb1ee7b6922e18370ebdc3502ec66f79fa3f
+#6 extracting sha256:9cdadd40055fb82fef74a0a38f29fb1ee7b6922e18370ebdc3502ec66f79fa3f 4.9s done
+#6 extracting sha256:199731bb298672a6e76a243fa683e612e3212d372488cf80b5236416533c0622
+#6 extracting sha256:199731bb298672a6e76a243fa683e612e3212d372488cf80b5236416533c0622 done
+#6 extracting sha256:b293c0d80a1fc02a3b8c65f1cd4f89b40fdeff8c8fad6d05f2b5b8b57e918a96 0.1s
+#6 extracting sha256:b293c0d80a1fc02a3b8c65f1cd4f89b40fdeff8c8fad6d05f2b5b8b57e918a96 0.6s done
+#6 extracting sha256:4435ded53ef02c7fce73c1aa6d82844922b923717e0e27efb56361b3e612d48b done
+#6 DONE 14.3s
+
+#8 [ 2/10] WORKDIR /app
+#8 DONE 0.0s
+
+#9 [ 3/10] RUN apt-get update -y   && apt-get install -y --no-install-recommends     build-essential     libpq-dev     curl     ca-certificates     git     python2   && rm -rf /var/lib/apt/lists/*
+#9 0.182 Get:1 http://deb.debian.org/debian bullseye InRelease [75.1 kB]
+#9 0.195 Get:2 http://deb.debian.org/debian-security bullseye-security InRelease [27.1 kB]
+#9 0.201 Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.0 kB]
+#9 0.289 Get:4 http://deb.debian.org/debian bullseye/main amd64 Packages [8066 kB]
+#9 0.389 Get:5 http://deb.debian.org/debian-security bullseye-security/main amd64 Packages [475 kB]
+#9 0.475 Get:6 http://deb.debian.org/debian bullseye-updates/main amd64 Packages [18.8 kB]
+#9 1.213 Fetched 8706 kB in 1s (8217 kB/s)
+#9 1.213 Reading package lists...
+#9 1.581 Reading package lists...
+#9 1.946 Building dependency tree...
+#9 2.028 Reading state information...
+#9 2.108 The following additional packages will be installed:
+#9 2.108   libcurl4 libcurl4-openssl-dev libpq5 libpython2-stdlib libpython2.7-minimal
+#9 2.108   libpython2.7-stdlib mailcap mime-support python2-minimal python2.7
+#9 2.109   python2.7-minimal
+#9 2.110 Suggested packages:
+#9 2.110   gettext-base git-daemon-run | git-daemon-sysvinit git-doc git-el git-email
+#9 2.110   git-gui gitk gitweb git-cvs git-mediawiki git-svn libcurl4-doc libidn11-dev
+#9 2.110   libldap2-dev librtmp-dev libssh2-1-dev postgresql-doc-13 python2-doc
+#9 2.110   python-tk python2.7-doc binfmt-support
+#9 2.110 Recommended packages:
+#9 2.110   less
+#9 2.173 The following NEW packages will be installed:
+#9 2.174   build-essential libpython2-stdlib libpython2.7-minimal libpython2.7-stdlib
+#9 2.174   mailcap mime-support python2 python2-minimal python2.7 python2.7-minimal
+#9 2.174 The following packages will be upgraded:
+#9 2.175   ca-certificates curl git libcurl4 libcurl4-openssl-dev libpq-dev libpq5
+#9 2.211 7 upgraded, 10 newly installed, 0 to remove and 170 not upgraded.
+#9 2.211 Need to get 11.1 MB of archives.
+#9 2.211 After this operation, 16.5 MB of additional disk space will be used.
+#9 2.211 Get:1 http://deb.debian.org/debian bullseye/main amd64 libpython2.7-minimal amd64 2.7.18-8+deb11u1 [397 kB]
+#9 2.243 Get:2 http://deb.debian.org/debian bullseye/main amd64 python2.7-minimal amd64 2.7.18-8+deb11u1 [1301 kB]
+#9 2.264 Get:3 http://deb.debian.org/debian bullseye/main amd64 python2-minimal amd64 2.7.18-3 [34.2 kB]
+#9 2.267 Get:4 http://deb.debian.org/debian bullseye/main amd64 mailcap all 3.69 [31.7 kB]
+#9 2.267 Get:5 http://deb.debian.org/debian bullseye/main amd64 mime-support all 3.66 [10.9 kB]
+#9 2.267 Get:6 http://deb.debian.org/debian bullseye/main amd64 libpython2.7-stdlib amd64 2.7.18-8+deb11u1 [1864 kB]
+#9 2.279 Get:7 http://deb.debian.org/debian bullseye/main amd64 python2.7 amd64 2.7.18-8+deb11u1 [311 kB]
+#9 2.281 Get:8 http://deb.debian.org/debian bullseye/main amd64 libpython2-stdlib amd64 2.7.18-3 [21.2 kB]
+#9 2.282 Get:9 http://deb.debian.org/debian bullseye/main amd64 python2 amd64 2.7.18-3 [24.5 kB]
+#9 2.282 Err:10 http://deb.debian.org/debian-security bullseye-security/main amd64 ca-certificates all 20250419~deb12u1~deb11u1
+#9 2.282   404  Not Found [IP: 146.75.30.132 80]
+#9 2.282 Get:11 http://deb.debian.org/debian bullseye/main amd64 build-essential amd64 12.9 [7704 B]
+#9 2.285 Err:12 http://deb.debian.org/debian-security bullseye-security/main amd64 libcurl4-openssl-dev amd64 7.74.0-1.3+deb11u16
+#9 2.285   404  Not Found [IP: 146.75.30.132 80]
+#9 2.287 Err:13 http://deb.debian.org/debian-security bullseye-security/main amd64 curl amd64 7.74.0-1.3+deb11u16
+#9 2.287   404  Not Found [IP: 146.75.30.132 80]
+#9 2.288 Err:14 http://deb.debian.org/debian-security bullseye-security/main amd64 libcurl4 amd64 7.74.0-1.3+deb11u16
+#9 2.288   404  Not Found [IP: 146.75.30.132 80]
+#9 2.291 Err:15 http://deb.debian.org/debian-security bullseye-security/main amd64 git amd64 1:2.30.2-1+deb11u5
+#9 2.291   404  Not Found [IP: 146.75.30.132 80]
+#9 2.380 Err:16 http://deb.debian.org/debian-security bullseye-security/main amd64 libpq-dev amd64 13.23-0+deb11u4
+#9 2.380   404  Not Found [IP: 146.75.30.132 80]
+#9 2.468 Err:17 http://deb.debian.org/debian-security bullseye-security/main amd64 libpq5 amd64 13.23-0+deb11u4
+#9 2.468   404  Not Found [IP: 146.75.30.132 80]
+#9 2.473 Fetched 4003 kB in 0s (13.8 MB/s)
+#9 2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/c/ca-certificates/ca-certificates_20250419%7edeb12u1%7edeb11u1_all.deb  404  Not Found [IP: 146.75.30.132 80]
+#9 2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/c/curl/libcurl4-openssl-dev_7.74.0-1.3%2bdeb11u16_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+#9 2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/c/curl/curl_7.74.0-1.3%2bdeb11u16_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+#9 2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/c/curl/libcurl4_7.74.0-1.3%2bdeb11u16_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+#9 2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/g/git/git_2.30.2-1%2bdeb11u5_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+#9 2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/p/postgresql-13/libpq-dev_13.23-0%2bdeb11u4_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+#9 2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/p/postgresql-13/libpq5_13.23-0%2bdeb11u4_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+#9 2.473 E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+#9 ERROR: process "/bin/sh -c apt-get update -y   && apt-get install -y --no-install-recommends     build-essential     libpq-dev     curl     ca-certificates     git     python2   && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
+------
+ > [ 3/10] RUN apt-get update -y   && apt-get install -y --no-install-recommends     build-essential     libpq-dev     curl     ca-certificates     git     python2   && rm -rf /var/lib/apt/lists/*:
+2.468   404  Not Found [IP: 146.75.30.132 80]
+2.473 Fetched 4003 kB in 0s (13.8 MB/s)
+2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/c/ca-certificates/ca-certificates_20250419%7edeb12u1%7edeb11u1_all.deb  404  Not Found [IP: 146.75.30.132 80]
+2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/c/curl/libcurl4-openssl-dev_7.74.0-1.3%2bdeb11u16_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/c/curl/curl_7.74.0-1.3%2bdeb11u16_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/c/curl/libcurl4_7.74.0-1.3%2bdeb11u16_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/g/git/git_2.30.2-1%2bdeb11u5_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/p/postgresql-13/libpq-dev_13.23-0%2bdeb11u4_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+2.473 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/p/postgresql-13/libpq5_13.23-0%2bdeb11u4_amd64.deb  404  Not Found [IP: 146.75.30.132 80]
+2.473 E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+------
+Dockerfile:7
+
+--------------------
+
+   6 |     # Install OS packages
+
+   7 | >>> RUN apt-get update -y \
+
+   8 | >>>   && apt-get install -y --no-install-recommends \
+
+   9 | >>>     build-essential \
+
+  10 | >>>     libpq-dev \
+
+  11 | >>>     curl \
+
+  12 | >>>     ca-certificates \
+
+  13 | >>>     git \
+
+  14 | >>>     python2 \
+
+  15 | >>>   && rm -rf /var/lib/apt/lists/*
+
+  16 |     
+
+--------------------
+
+failed to solve: process "/bin/sh -c apt-get update -y   && apt-get install -y --no-install-recommends     build-essential     libpq-dev     curl     ca-certificates     git     python2   && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
+

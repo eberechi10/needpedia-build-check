@@ -1,1 +1,30 @@
-open /home/runner/work/needpedia-build-check/needpedia-build-check/docker-compose.check.yml: no such file or directory
+Dockerfile:7
+
+--------------------
+
+   6 |     # Install OS packages
+
+   7 | >>> RUN apt-get update -y \
+
+   8 | >>>   && apt-get install -y --no-install-recommends \
+
+   9 | >>>     build-essential \
+
+  10 | >>>     libpq-dev \
+
+  11 | >>>     curl \
+
+  12 | >>>     ca-certificates \
+
+  13 | >>>     git \
+
+  14 | >>>     python2 \
+
+  15 | >>>   && rm -rf /var/lib/apt/lists/*
+
+  16 |     
+
+--------------------
+
+failed to solve: process "/bin/sh -c apt-get update -y   && apt-get install -y --no-install-recommends     build-essential     libpq-dev     curl     ca-certificates     git     python2   && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
+
