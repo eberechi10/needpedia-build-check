@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-01T17:15:50Z",
+  "passed": false,
+  "failed_step": "build",
+  "error_lines": [
+    "open /home/runner/work/needpedia-build-check/needpedia-build-check/docker-compose.check.yml: no such file or directory"
+  ],
+  "needpedia_commit": "26563af13a08bda0ab93b51d600bafc822b7b749",
+  "run_url": "https://github.com/eberechi10/needpedia-build-check/actions/runs/36898058138",
+  "last_passed_at": null
+}
