@@ -3,7 +3,7 @@ name: Daily Needpedia build check
 on:
   schedule:
     # Once a day at 07:23 UTC. Change the time here if Tony wants another.
-    - cron: '5 20 * * *'
+    - cron: '23 7 * * *'
   # The manual "Run workflow" button.
   workflow_dispatch:
 
@@ -23,7 +23,7 @@ permissions:
 
 jobs:
   build-check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 120
 
     steps:
