@@ -3,7 +3,7 @@ name: Daily Needpedia build check
 on:
   schedule:
     # Once a day at 07:23 UTC. Change the time here if Tony wants another.
-    - cron: '23 7 * * *'
+    - cron: '20 17 * * *'
   # The manual "Run workflow" button.
   workflow_dispatch:
 
