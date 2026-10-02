@@ -1,30 +1,30 @@
-Dockerfile:7
-
---------------------
-
-   6 |     # Install OS packages
-
-   7 | >>> RUN apt-get update -y \
-
-   8 | >>>   && apt-get install -y --no-install-recommends \
-
-   9 | >>>     build-essential \
-
-  10 | >>>     libpq-dev \
-
-  11 | >>>     curl \
-
-  12 | >>>     ca-certificates \
-
-  13 | >>>     git \
-
-  14 | >>>     python2 \
-
-  15 | >>>   && rm -rf /var/lib/apt/lists/*
-
-  16 |     
-
---------------------
-
-failed to solve: process "/bin/sh -c apt-get update -y   && apt-get install -y --no-install-recommends     build-essential     libpq-dev     curl     ca-certificates     git     python2   && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
+/usr/local/bundle/ruby/2.7.0/gems/activerecord-6.0.6.1/lib/active_record/tasks/database_tasks.rb:126:in `create'
+/usr/local/bundle/ruby/2.7.0/gems/activerecord-6.0.6.1/lib/active_record/tasks/database_tasks.rb:185:in `block in create_current'
+/usr/local/bundle/ruby/2.7.0/gems/activerecord-6.0.6.1/lib/active_record/tasks/database_tasks.rb:479:in `block (2 levels) in each_current_configuration'
+/usr/local/bundle/ruby/2.7.0/gems/activerecord-6.0.6.1/lib/active_record/tasks/database_tasks.rb:476:in `each'
+/usr/local/bundle/ruby/2.7.0/gems/activerecord-6.0.6.1/lib/active_record/tasks/database_tasks.rb:476:in `block in each_current_configuration'
+/usr/local/bundle/ruby/2.7.0/gems/activerecord-6.0.6.1/lib/active_record/tasks/database_tasks.rb:475:in `each'
+/usr/local/bundle/ruby/2.7.0/gems/activerecord-6.0.6.1/lib/active_record/tasks/database_tasks.rb:475:in `each_current_configuration'
+/usr/local/bundle/ruby/2.7.0/gems/activerecord-6.0.6.1/lib/active_record/tasks/database_tasks.rb:184:in `create_current'
+/usr/local/bundle/ruby/2.7.0/gems/activerecord-6.0.6.1/lib/active_record/railties/databases.rake:39:in `block (2 levels) in <main>'
+/usr/local/bundle/ruby/2.7.0/gems/railties-6.0.6.1/lib/rails/commands/rake/rake_command.rb:23:in `block in perform'
+/usr/local/bundle/ruby/2.7.0/gems/railties-6.0.6.1/lib/rails/commands/rake/rake_command.rb:20:in `perform'
+/usr/local/bundle/ruby/2.7.0/gems/railties-6.0.6.1/lib/rails/command.rb:48:in `invoke'
+/usr/local/bundle/ruby/2.7.0/gems/railties-6.0.6.1/lib/rails/commands.rb:18:in `<main>'
+/usr/local/bundle/ruby/2.7.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/usr/local/bundle/ruby/2.7.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/app/bin/rails:9:in `<top (required)>'
+/usr/local/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/client/rails.rb:28:in `load'
+/usr/local/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/client/rails.rb:28:in `call'
+/usr/local/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/client/command.rb:7:in `call'
+/usr/local/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/client.rb:30:in `run'
+/usr/local/bundle/ruby/2.7.0/gems/spring-2.1.1/bin/spring:49:in `<top (required)>'
+/usr/local/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/binstub.rb:11:in `load'
+/usr/local/bundle/ruby/2.7.0/gems/spring-2.1.1/lib/spring/binstub.rb:11:in `<top (required)>'
+/app/bin/spring:15:in `require'
+/app/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+Tasks: TOP => db:create
+(See full trace by running task with --trace)
 
