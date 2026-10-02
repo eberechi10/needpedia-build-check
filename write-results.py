@@ -29,7 +29,7 @@ failed_step = failed_path.read_text().strip() if failed_path.exists() else "unkn
 error_lines = []
 log_path = out / "step-log.txt"
 if log_path.exists():
-    error_lines = [line.rstrip("\n") for line in log_path.read_text(errors="replace").splitlines()[-30:]]
+    error_lines = [line.rstrip("\n") for line in log_path.read_text(errors="replace").splitlines()]
 
 passed = (failed_step == "")
 
