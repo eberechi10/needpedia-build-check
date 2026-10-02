@@ -35,7 +35,12 @@ trap cleanup EXIT
 fail() {
   local step="$1"
   echo "$step" > "$RESULTS_DIR/failed-step.txt"
-  tail -n 30 "$STEP_LOG" > "$RESULTS_DIR/step-log.txt" 2>/dev/null || true
+  {
+    echo "----- first 10 lines of the failing step -----"
+    head -n 10 "$STEP_LOG" 2>/dev/null || true
+    echo "----- last 30 lines of the failing step -----"
+    tail -n 30 "$STEP_LOG" 2>/dev/null || true
+  } > "$RESULTS_DIR/step-log.txt"
   echo "::error::FAILED STEP: $step"
   exit 1
 }
@@ -99,7 +104,7 @@ for i in $(seq 1 30); do
   fi
 done
 
-run_step database compose run --rm -T web bundle exec rails db:create db:migrate
+run_step database compose run --rm -T web bundle exec rails db:migrate
 
 # ---------------------------------------------------------------
 # 3) START — bring the web container up and confirm it stays up.
