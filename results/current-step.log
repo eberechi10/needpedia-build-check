@@ -1,9 +1,9 @@
- Container needpedia-build-check-db-1  Running
  Container needpedia-build-check-redis-1  Running
+ Container needpedia-build-check-db-1  Running
  Container needpedia-build-check-web-1  Creating
  Container needpedia-build-check-web-1  Created
- Container needpedia-build-check-redis-1  Waiting
  Container needpedia-build-check-db-1  Waiting
+ Container needpedia-build-check-redis-1  Waiting
  Container needpedia-build-check-db-1  Healthy
  Container needpedia-build-check-redis-1  Healthy
  Container needpedia-build-check-web-1  Starting
